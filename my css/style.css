@@ -1,0 +1,114 @@
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-image: linear-gradient(135deg, #5069c5, rgba(0, 255, 157, 0.8));
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+footer p {
+  font-family: calibri;
+}
+  
+
+footer p:nth-child(1) {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 10px;
+}
+
+footer p:nth-child(2) {
+  font-size: 16px;
+  color: #7e7d7d;
+  width: 600px;
+  text-align: center;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #d63384;
+  /* border-bottom-left-radius: 140px;
+  border-top-right-radius: 140px; */
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e3e3;
+  margin: 20px 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons i,
+.social i {
+  color: #000000;
+}
+
+.social-icons a:hover {
+  background-color: #4400ff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.social a:hover i {
+  color: #ffffff;
+  transition: all ease 0.5s;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 15spx;
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%);
+}
+.social {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0px;
+  background-color: #ffffff;
+  border: 1px solid #cbcbcb;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.social a:hover {
+  background-color: #000000;
+  transition: all ease 0.5s;
+}
